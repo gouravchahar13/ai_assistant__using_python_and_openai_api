@@ -1,0 +1,5 @@
+sites=[]
+        for site in sites:
+            if ().lower() in query.lower():
+                say(f"{site[0]} has been opened Gourav Sir")
+                webbrowser.open(site[1])

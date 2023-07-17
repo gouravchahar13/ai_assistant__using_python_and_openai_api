@@ -1,0 +1,70 @@
+give me the python cod is the prompt and response :: 
+***************************************
+
+
+def make_website(username, domain, filename, password):
+
+#Find the folder where your files are
+
+if not os.path.exists(filename):
+
+os.makedirs(filename)
+
+#Create the website
+
+nano filename
+
+print("Creating website for %s..." % username)
+
+#Create a file called index.html in the website folder
+
+#Write the following text in the file
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>My Website</title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+#Write the following code in the file
+
+#This code will create the HTML template file
+
+html = """
+
+<!--
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>My Website</title>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+-->
+
+"""
+
+#Add the following line to the end of the file
+
+#This line will create the index.
